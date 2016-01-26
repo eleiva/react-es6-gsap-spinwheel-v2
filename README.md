@@ -1,5 +1,7 @@
 # ES6 React Spin Wheel with GSAP
 
+![alt text](http://www.clipular.com/c/6381363129745408.png?k=bvpE2T2TUlyU6ljy3rVsyvXKqRY "Spin Wheel")
+
 
 ## What you get
 
