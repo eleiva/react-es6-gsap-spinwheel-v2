@@ -167,6 +167,8 @@ import './index.html';
 ## Credits
 
 This project was initially forked from https://github.com/tcoopman/react-es6-browserify
+AND
+https://github.com/badsyntax/react-seed.git
 
 ## License
 
