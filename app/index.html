@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title><%= title %></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <% if (debug === false) { %>
+  <link type="text/css" rel="stylesheet" media="all" href="css/app.<%= version %>.css" />
+  <% } %>
+</head>
+<body>
+  <div id="jswheel"></div>
+  <script>
+      window.jswheel = {
+          'canAttemptUrl': 'http://second.ucp.local.host/api/roulette/canAttempt',
+          'attemptUrl': 'http://second.ucp.local.host/api/roulette/attempt',
+          'data' : { 
+                  'app_widget_id' : '8', 
+                  'user_id' :'1', 
+                },
+          'success' : function(data){
+            alert('Success');
+            }
+          };
+  </script>
+
+  <script src="js/app.<%= version %>.js"></script>
+</body>
+</html>
+
